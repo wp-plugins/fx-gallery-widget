@@ -3,7 +3,7 @@
 Plugin Name: FX Gallery Widget
 Plugin URI: http://www.wordpress.org
 Description: Widget to display a  gallery of images attached to a current page or post (or to specific page or post by ID). In options user may set number of images, any registered image size, type of link, post ID and order.
-Version: 0.1
+Version: 1.0.1
 Author: Aivaras Sondeckis
 Author URI: http://www.3Dgrafika.lt
 */
