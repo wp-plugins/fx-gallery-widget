@@ -1,12 +1,12 @@
 === FX Gallery Widget ===
 Contributors: aivarasfx 
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U4ABQ5TFC8UHQ
-Tags: gallery, widget
+Donate link: http://www.3Dgrafika.lt
+Tags: gallery, widget, images
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
-Simple widget for displaying gallery for attached images to current page or post, or to a specific post or page set by ID
+Simple widget for displaying gallery images of current page or post, or from a specific post or page set by ID
 
 == Description ==
 
@@ -44,11 +44,13 @@ You may install "WP Show IDs" plugin, then all ID's will be shown in administrat
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed description and text in widget
+
 = 1.0.0 =
 * First version
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-* Original release
+*
 
