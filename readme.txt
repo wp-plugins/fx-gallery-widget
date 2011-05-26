@@ -6,7 +6,7 @@ Requires at least: 2.8
 Tested up to: 3.1
 Stable tag: 1.0.0
 
-Simple widget for displaying gallery for attached images to current page or post, or to a specific post or page by ID.
+Simple widget for displaying gallery for attached images to current page or post, or to a specific post or page set by ID
 
 == Description ==
 
@@ -50,4 +50,5 @@ You may install "WP Show IDs" plugin, then all ID's will be shown in administrat
 == Upgrade Notice ==
 
 = 1.0.0 =
-Original release
+* Original release
+
