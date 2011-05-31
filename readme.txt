@@ -4,7 +4,7 @@ Donate link: http://www.3Dgrafika.lt
 Tags: gallery, widget, images
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Simple widget for displaying gallery images of current page or post, or from a specific post or page set by ID
 

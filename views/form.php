@@ -7,6 +7,8 @@ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'post_id' =>
 $title = strip_tags($instance['title']);
 $show_from_current_page = $instance['show_from_current_page'] ? 'checked="checked"' : '';
 $post_id = $instance['post_id'];
+$hide_if_on_page = $instance['hide_if_on_page'] ? 'checked="checked"' : '';
+$remove_images_from_page = $instance['remove_images_from_page'] ? 'checked="checked"' : '';
 $num_images = $instance['num_images'];
 $show_captions = $instance['show_captions'] ? 'checked="checked"' : '';
 $image_size = $instance['image_size'];
@@ -25,7 +27,13 @@ $link_rel = strip_tags($instance['link_rel']);
 
 <p><label for="<?php echo $this->get_field_id('post_id'); ?>"><?php _e('Page or post ID:'); ?></label>
 <input id="<?php echo $this->get_field_id('post_id'); ?>" name="<?php echo $this->get_field_name('post_id'); ?>" type="text" size="3" value="<?php echo $post_id; ?>" /><br />
-  <em>(Show this if not selected to show from current page/post)</em></p>
+  <em>(Show from this page if not selected to show from current page/post)</em></p>
+
+<p><input class="checkbox" type="checkbox" <?php echo $hide_if_on_page; ?> id="<?php echo $this->get_field_id('hide_if_on_page'); ?>" name="<?php echo $this->get_field_name('hide_if_on_page'); ?>" />
+  <label for="<?php echo $this->get_field_id('hide_if_on_page'); ?>"><?php _e("If image in page don't show it in gallery"); ?></label></p>
+
+<p><input class="checkbox" type="checkbox" <?php echo $remove_images_from_page; ?> id="<?php echo $this->get_field_id('remove_images_from_page'); ?>" name="<?php echo $this->get_field_name('remove_images_from_page'); ?>" />
+  <label for="<?php echo $this->get_field_id('remove_images_from_page'); ?>"><?php _e("Remove images from page"); ?></label></p>
 
 <p><label for="<?php echo $this->get_field_id('num_images'); ?>"><?php _e('Number of images to show:'); ?></label>
 <input id="<?php echo $this->get_field_id('num_images'); ?>" name="<?php echo $this->get_field_name('num_images'); ?>" type="text" size="1" value="<?php echo $num_images; ?>" /><br />
